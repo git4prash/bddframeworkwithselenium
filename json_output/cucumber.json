@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7734124670,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Securepay - Navigate to Contact Us form and enter details",
+        "description": "",
+        "id": "securepay---contact-us-page;securepay---navigate-to-contact-us-form-and-enter-details",
+        "after": [
+          {
+            "result": {
+              "duration": 2915450153,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4228113302,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user searches for securepay on google",
+            "match": {
+              "location": "SearchActions.user_searches_for_securepay_on_google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4383131464,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks through to securepay website",
+            "match": {
+              "location": "SearchActions.clicks_through_to_SecurePay_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43081990,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to the SecurePay homepage",
+            "match": {
+              "location": "HomePageActions.user_is_redirected_to_the_SecurePay_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166816256,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Navigates to Contact Us page",
+            "match": {
+              "location": "HomePageActions.user_Navigates_to_Contact_Us_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7561099133,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify that the Contact Us page is displayed",
+            "match": {
+              "location": "ContactUsActions.verify_that_the_Contact_Us_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1471919187,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be able to enter details into the contact form",
+            "match": {
+              "location": "ContactUsActions.user_should_be_able_to_enter_details_into_the_contact_form()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Securepay - Contact Us Page",
+    "description": "",
+    "id": "securepay---contact-us-page",
+    "keyword": "Feature",
+    "uri": "ContactUs.feature"
+  }
+]
